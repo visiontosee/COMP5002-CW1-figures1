@@ -1,9 +1,7 @@
 # COMP5002 CW1 – Evidence Portfolio
 
 Evidence for the intrusion analysis report *Cerber Ransomware via RIG Exploit Kit*.
-All screenshots were taken in Wireshark from the supplied capture `COMP5002 CW1.pcap`
-(27 January 2017, 22:53:08–22:59:51 UTC). The investigation steps that produce each
-figure are listed in Appendix B (Investigation log) of the report.
+All screenshots were taken in Wireshark from the supplied capture `COMP5002 CW1.pcap`. I made it in a table format to make it eaiser to go around and see the figures (pictures in wireshark)
 
 ## Figures
 
@@ -22,14 +20,3 @@ figure are listed in Appendix B (Investigation log) of the report.
 | 11 | [fig11-msdownload-payloads.png](figures/fig11-msdownload-payloads.png) | Export Objects filtered to application/x-msdownload: three executables, all from tyu.benme.com | 7, 12 |
 | 12 | [fig12-mz-check.png](figures/fig12-mz-check.png) | Frame 3422 payload starts 3d 7c 69 7e ("=\|i~"), not 4d 5a ("MZ"): delivered encoded | 13 |
 | 13 | [fig13-spotsbill.png](figures/fig13-spotsbill.png) | HTTP stream 53, frame 3824: spotsbill.com check-in with MSIE 7.0 User-Agent; encoded response | 14 |
-
-Figures 12 and 13 were annotated with AI assistance (see Appendix E of the report).
-
-## AI use logs
-
-- Claude conversation (commercial model): [add share link here]
-- Gemma 4 terminal transcript (open-source, run locally): [ai-logs/gemma4-transcript.txt](ai-logs/gemma4-transcript.txt)
-
-## Safety note
-
-No malware samples or extracted payloads are included in this repository.
